@@ -1,0 +1,38 @@
+2022-06-20T06:14:31.6NZ mysqld_safe Logging to '/Applications/MAMP/logs/mysql_error.log'.
+2022-06-20T06:14:31.6NZ mysqld_safe Starting mysqld daemon with databases from /Applications/MAMP/db/mysql57
+2022-06-20T06:14:31.721041Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2022-06-20T06:14:31.723593Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2022-06-20T06:14:31.725015Z 0 [Note] /Applications/MAMP/Library/bin/mysqld (mysqld 5.7.34) starting as process 45797 ...
+2022-06-20T06:14:31.740909Z 0 [Warning] Setting lower_case_table_names=2 because file system for /Applications/MAMP/db/mysql57/ is case insensitive
+2022-06-20T06:14:31.753377Z 0 [Note] InnoDB: Mutexes and rw_locks use GCC atomic builtins
+2022-06-20T06:14:31.753417Z 0 [Note] InnoDB: Uses event mutexes
+2022-06-20T06:14:31.753433Z 0 [Note] InnoDB: GCC builtin __atomic_thread_fence() is used for memory barrier
+2022-06-20T06:14:31.753455Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-06-20T06:14:31.755851Z 0 [Note] InnoDB: Number of pools: 1
+2022-06-20T06:14:31.760216Z 0 [Note] InnoDB: Using CPU crc32 instructions
+2022-06-20T06:14:31.765397Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2022-06-20T06:14:31.785910Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-06-20T06:14:31.813740Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2022-06-20T06:14:31.853930Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-06-20T06:14:31.854163Z 0 [Note] InnoDB: Setting file './ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-06-20T06:14:31.874123Z 0 [Note] InnoDB: File './ibtmp1' size is now 12 MB.
+2022-06-20T06:14:31.875380Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2022-06-20T06:14:31.875426Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2022-06-20T06:14:31.875635Z 0 [Note] InnoDB: Waiting for purge to start
+2022-06-20T06:14:31.927159Z 0 [Note] InnoDB: 5.7.34 started; log sequence number 2551397
+2022-06-20T06:14:31.927407Z 0 [Note] InnoDB: Loading buffer pool(s) from /Applications/MAMP/db/mysql57/ib_buffer_pool
+2022-06-20T06:14:31.929297Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2022-06-20T06:14:31.952543Z 0 [Warning] InnoDB: Table mysql/innodb_table_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2022-06-20T06:14:31.952606Z 0 [Warning] InnoDB: Table mysql/innodb_index_stats has length mismatch in the column name table_name.  Please run mysql_upgrade
+2022-06-20T06:14:31.954620Z 0 [Note] InnoDB: Buffer pool(s) load completed at 220620 15:14:31
+2022-06-20T06:14:32.005676Z 0 [Note] Found ca.pem, server-cert.pem and server-key.pem in data directory. Trying to enable SSL support using them.
+2022-06-20T06:14:32.005718Z 0 [Note] Skipping generation of SSL certificates as certificate files are present in data directory.
+2022-06-20T06:14:32.016751Z 0 [Warning] CA certificate ca.pem is self signed.
+2022-06-20T06:14:32.017643Z 0 [Note] Skipping generation of RSA key pair as key files are present in data directory.
+2022-06-20T06:14:32.018452Z 0 [Note] Server hostname (bind-address): '*'; port: 8889
+2022-06-20T06:14:32.019084Z 0 [Note] IPv6 is available.
+2022-06-20T06:14:32.019171Z 0 [Note]   - '::' resolves to '::';
+2022-06-20T06:14:32.019361Z 0 [Note] Server socket created on IP: '::'.
+2022-06-20T06:14:32.123039Z 0 [Note] Event Scheduler: Loaded 0 events
+2022-06-20T06:14:32.123243Z 0 [Note] /Applications/MAMP/Library/bin/mysqld: ready for connections.
+Version: '5.7.34'  socket: '/Applications/MAMP/tmp/mysql/mysql.sock'  port: 8889  MySQL Community Server (GPL)
