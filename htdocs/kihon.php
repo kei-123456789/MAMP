@@ -8,6 +8,8 @@
 
 <?php
 print "Hello World";
+print "<p>ジャンケンしよ！</p>";
+print "<img src='boy.gif'>";
 ?>
 
 </body>
