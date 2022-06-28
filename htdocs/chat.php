@@ -12,7 +12,9 @@
 </form>
 
 <?php
-print $_GET["a"];
+$f=fopen("chat.txt","at");
+fwrite($f,$_GET["a"]."\n");
+fclose($f);
 ?>
 
 </body>
