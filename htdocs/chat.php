@@ -12,9 +12,16 @@
 </form>
 
 <?php
-$f=fopen("chat.txt","at");
-fwrite($f,$_GET["a"]."\n");
-fclose($f);
+if(isset($_GET["a"])){
+  $f=fopen("chat.txt","at");
+  $mozi=htmlspecialchars($_GET["a"],ENT_QUOTES);
+  fwrite($f,$mozi."\n");
+  fclose($f);
+}
+
+print "<pre>";
+readfile("chat.txt");
+print "</pre>";
 ?>
 
 </body>
